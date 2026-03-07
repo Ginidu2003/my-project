@@ -1,10 +1,11 @@
-name = input('Enter your name: ') 
-gender = input('Male or Female: ') 
-martial = input('Married or Single: ') 
-if gender == 'Female': 
-  if martial == 'Married':
-      print('Mrs. ' + name)
+Name = input('Enter your name: ') 
+Gender = input('Male or Female: ') 
+Martial = input('Married or Single: ') 
+if Gender == 'Female': 
+  if Martial == 'Married':
+      print('Mrs. ' + Name)
   else:
-      print('Miss ' + name)
+      print('Miss ' + Name)
 else: 
-      print('Mr. ' + name)
+      print('Mr. ' + Name)
+
